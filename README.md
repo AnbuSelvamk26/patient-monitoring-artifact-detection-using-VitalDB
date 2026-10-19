@@ -79,12 +79,6 @@ Figures are written to `results/figures/`.
 - The 5-minute baseline adapts slowly after a genuine level shift.
 - No dashboard/UI was built; the deliverable is notebooks + scripts + results.
 
-## Installation / setup
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-pip install -r requirements.txt
-```
 
 ## How to run
 - **Google Colab (easiest):** upload and run `notebooks/01_EDA_VitalDB.ipynb`, then `notebooks/02_Detection_VitalDB.ipynb` (Runtime → Run all). Notebook 2 downloads a `results.zip` – unzip it into `results/`.
@@ -103,11 +97,6 @@ pip install -r requirements.txt
 └── poster/      final poster
 ```
 
-## Team members
-| Name | ID |
-|---|---|
-| Anbuselvam K | TODO |
-| TODO | TODO |
 
 ## References
 Lee H.-C. et al. VitalDB, a high-fidelity multi-parameter vital signs database in surgical patients. *Scientific Data* 9, 279 (2022).
